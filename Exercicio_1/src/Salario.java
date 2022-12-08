@@ -1,5 +1,4 @@
 package Exercicio_1.src;
-import java.util.Scanner;
 
 public class Salario {
     private String nome = " ";

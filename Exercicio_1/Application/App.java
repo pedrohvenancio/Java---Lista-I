@@ -1,6 +1,5 @@
 package Exercicio_1.Application;
 import java.util.Scanner;
-
 import Exercicio_1.src.Salario;
 
 public class App {
@@ -12,6 +11,7 @@ public class App {
         Salario[] manicures = new Salario[5];
 
         for (int i = 0; i < 5; i++){
+            manicures[i] = new Salario();
             String x;
             int n1,n2;
             float y1, y2;
@@ -30,8 +30,11 @@ public class App {
             System.out.println("Valor individual:");
             y2 = input.nextFloat();
             manicures[i].setVP(y2);
+            System.out.println("--------------------------");
         }
 
-        manicures.toString();
+        for (int i = 0; i < 5; i++){
+            System.out.println(manicures[i].toString());
+        }
     }
 }
