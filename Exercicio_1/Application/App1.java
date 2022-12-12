@@ -2,7 +2,7 @@ package Exercicio_1.Application;
 import java.util.Scanner;
 import Exercicio_1.src.Salario;
 
-public class App {
+public class App1 {
     public static void main(String[] args) throws Exception {
         Scanner input = new Scanner(System.in);
 
@@ -36,5 +36,7 @@ public class App {
         for (int i = 0; i < 5; i++){
             System.out.println(manicures[i].toString());
         }
+
+        input.close();
     }
 }
