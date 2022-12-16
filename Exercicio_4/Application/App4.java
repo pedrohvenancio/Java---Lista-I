@@ -11,7 +11,7 @@ public class App4 {
         matriz.getVendas(matriz);
         matriz.printMat(matriz);
         matriz.totalMes(matriz);
-        matriz.totalSemana(matriz);//mexer
+        matriz.totalSemana(matriz);
         matriz.totalAno();
 
     }
