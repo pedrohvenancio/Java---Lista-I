@@ -2,7 +2,7 @@ package Exercicio_3.Application;
 
 public class App3 {
     public static void main(String[] args) {
-        System.out.println(funcc(3));
+        System.out.println(funcc(4));
     }
 
     public static int funcc(int n) {

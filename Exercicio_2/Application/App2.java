@@ -10,7 +10,7 @@ public class App2 {
         Floricultura[] flores = new Floricultura[50];
         int x;
         System.out.println("Olá, bem vindo(a). Você deseja cadastrar quantas flores?");
-        System.out.println(" (LIMITE = 50)");
+        System.out.println("(LIMITE = 50)");
         x = input.nextInt();
 
         for (int i = 0; i < x; i++){
